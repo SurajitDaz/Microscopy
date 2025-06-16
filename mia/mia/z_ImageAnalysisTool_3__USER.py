@@ -81,7 +81,7 @@ def initialize_Image_Processing(color_spc, Neighbor):
 
 def call_binary_cleanup():
     global image_path
-    command = ["python", "z_binary_cleanup.py", image_path]
+    command = ["python", "app_beta_vz.py", image_path]
     try:
         # Run the external script
         subprocess.run(command, check=True)
